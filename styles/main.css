@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-section {
+    height: 720px;
+}
+
+#features-section {
+    height: max-content;
+    padding: 70px 0;
+}
+
+
+#course-overview {
+    height: max-content;
+    padding: 70px 0;
+}
+
+#testimonials-section {
+    height: max-content;
+    padding: 70px 0;
+}
+
+
+#testimonials-section .card {
+
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1)
+}
+
+#testimonials-section .card:hover {
+
+    background-color: #eee;
+
+}
+
+#testimonials-section .ratings i {
+
+    color: orange;
+}
+
+#testimonials-section .testimonial-list {
+
+    list-style: none;
+}
+
+#testimonials-section .testimonial-list li {
+
+    margin-bottom: 20px;
+}
+
+#testimonials-section .testimonials-margin {
+
+    margin-top: -19px;
+}
